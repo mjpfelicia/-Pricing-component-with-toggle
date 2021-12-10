@@ -90,7 +90,7 @@ main {
     display: none;
     justify-content: center;
     align-items: center;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .titulo-principal {
@@ -151,7 +151,7 @@ main {
     margin: 0px;
     font-size: 3rem;
     color: var(--cor-azul-acinzentado-escuro);
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .content-button button {
@@ -207,7 +207,7 @@ main {
 .valor-plano-professional-annually {
     margin: 0px;
     font-size: 3rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .content-button-professional button {
@@ -288,6 +288,10 @@ small {
 
 .mostrar {
     display: flex;
+}
+
+.section-plano {
+    width: 250px;
 }
 
 @media only screen and (min-width: 900px) {
