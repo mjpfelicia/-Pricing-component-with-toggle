@@ -4,10 +4,7 @@
 ![Design preview for the Pricing component with toggle coding challenge](./design/mobile-design-monthly.jpg)
 
 ## Welcome! 👋
-
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
-
-## Welcome! 👋
 
 
 # Índice
