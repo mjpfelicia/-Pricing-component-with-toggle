@@ -283,7 +283,7 @@ small {
     display: flex;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 900px) {
     .section-planos {
         display: flex;
         align-items: center;
