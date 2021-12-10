@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Pricing component with toggle solution</title>
+
+
+</head>
+
+<body>
+    <main>
+        <div class="box-geral">
+            <h1 class="titulo-principal">
+                Our Pricing
+            </h1>
+
+            <div class="section-toggle">
+                <p>
+                    Monthly
+                </p>
+                <div id="onoff">
+                    <input type="checkbox" class="toggle" id="onoff1" onclick="toggle()">
+                    <label for="onoff1"></label>
+                </div>
+                <p id="estado">desligado</p>
+                <p>
+                    Annually
+                </p>
+            </div>
+            <div class=" section-planos">
+                <div class="section-basic">
+                    <div class="box-basic">
+                        <h2 class="titulo-basic">
+                            Basic
+                        </h2>
+                        <div class="content-plano">
+                            <div class="plano-monthly plano-basic-monthly">
+                                <small>&dollar;</small>
+                                <span class="valor-basic">
+                                19.99
+                            </span>
+                            </div>
+                            <div class="plano-annually">
+                                <div class="valor-basic">
+                                    <small>&dollar;</small>
+                                    <span class="valor-basic-annually">199.99</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="conteudo-plano-basic">
+                            <p class="conteudo-plano plano-pedding border-top-p">500 GB Storage</p>
+                            <p class="conteudo-plano">2 Users Allowed</p>
+                            <p class="conteudo-plano">Send up to 3 GB</p>
+                        </div>
+                        <div class="content-button">
+                            <button>
+                            Learn More
+                        </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-Profissional">
+                    <div class="box-profissional">
+                        <h2 class="titulo-profissional">
+                            Professional
+                        </h2>
+                        <div class="content-plano">
+                            <div class="plano-monthly plano-professional-monthly">
+                                <small>&dollar;</small>
+                                <span class="valor-plano-professional">24.99</span>
+                            </div>
+                            <div class="plano-annually">
+                                <small>&dollar;</small>
+                                <span class="valor-plano-professional">249.99</span>
+                            </div>
+                        </div>
+                        <div class="conteudo-plano-professional">
+                            <p class="conteudo-plano-p plano-pedding border-top-p">1 TB Storage</p>
+                            <p class="conteudo-plano-p ">5 Users Allowed</p>
+                            <p class="conteudo-plano-p ">Send up to 10 GB</p>
+                            <div class="content-button-professional">
+                                <button class="botton-hover">
+                                Learn More 
+                            </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="seciton-master">
+                    <div class="box-master">
+                        <h2 class="titulo-master">
+                            Master
+                        </h2>
+                        <div class="content-plano">
+                            <div class="plano-monthly plano-master-monthly">
+                                <small>&dollar;</small>
+                                <span class="valor-master">39.99</span>
+                            </div>
+                            <div class="plano-annually">
+                                <small>&dollar;</small>
+                                <span class="valor-master">399.99</span>
+                            </div>
+                        </div>
+                        <div class="conteudo-plano-master">
+                            <p class="conteudo-master plano-pedding border-top-p">2 TB Storage</p>
+                            <p class="conteudo-master">10 Users Allowed</p>
+                            <p class="conteudo-master">Send up to 20 GB</p>
+                        </div>
+                        <div class="content-button">
+                            <button>
+                            Learn More
+                        </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+
+</html>
