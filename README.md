@@ -1,7 +1,7 @@
 # Frontend Mentor - Pricing component with toggle
 
-![Design preview for the Pricing component with toggle coding challenge](./design/desktop-monthly.jpg)
-![Design preview for the Pricing component with toggle coding challenge](./design/mobile-design-mothly.jpg)
+![Design preview for the Pricing component with toggle coding challenge](./design/design-monthly.jpg)
+![Design preview for the Pricing component with toggle coding challenge](./design/mobile-design-monthly.jpg)
 
 ## Welcome! 👋
 
