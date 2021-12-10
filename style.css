@@ -143,13 +143,13 @@ main {
 
 .valor-basic {
     margin: 0px;
-    font-size: 3rem;
+    font-size: 4rem;
     color: var(--cor-azul-acinzentado-escuro);
 }
 
 .valor-basic-annually {
     margin: 0px;
-    font-size: 3rem;
+    font-size: 4rem;
     color: var(--cor-azul-acinzentado-escuro);
     padding-bottom: 2rem;
 }
@@ -183,7 +183,7 @@ main {
 
 .valor-plano-professional {
     margin: 0px;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .conteudo-plano-p {
@@ -206,7 +206,7 @@ main {
 
 .valor-plano-professional-annually {
     margin: 0px;
-    font-size: 3rem;
+    font-size: 4rem;
     padding-bottom: 2rem;
 }
 
@@ -273,7 +273,7 @@ small {
 
 .valor-master {
     margin: 0px;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .conteudo-master {
@@ -291,7 +291,7 @@ small {
 }
 
 .section-plano {
-    width: 250px;
+    width: 300px;
 }
 
 @media only screen and (min-width: 900px) {
