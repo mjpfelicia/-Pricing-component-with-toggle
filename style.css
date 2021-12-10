@@ -275,6 +275,14 @@ small {
     border-bottom: 1px solid var(--cor-azul-acinzentado-claro);
 }
 
+.esconder {
+    display: none;
+}
+
+.mostrar {
+    display: flex;
+}
+
 @media only screen and (min-width: 600px) {
     .section-planos {
         display: flex;
@@ -295,12 +303,6 @@ small {
     }
     #onoff input.toggle+label:hover:before {
         background: linear-gradient(to left, hsl(237, 63%, 64%), hsl(236, 72%, 79%));
-    }
-    .esconder {
-        display: none;
-    }
-    .mostrar {
-        display: flex;
     }
     .box-profissional {
         padding: 45px 40px;
